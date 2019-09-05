@@ -5,6 +5,8 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
 	color:#606060;
+	margin: 0px 0px;
+	/* padding: 0 0; */
 }
 .container {
 	width:100%;
@@ -14,24 +16,20 @@ body{
 
 .logo{
 	clear: both;
-	margin-top:21px;
 	vertical-align:bottom;
-
+	margin-top: 20px;
 }
 .logo_text{
 	float:left;
-	margin:-44px 0 0 10px;
-	
+	padding: -46px 0 0 10px;
 }
 .logo_text > p{
-	
-	font-family: Nunito;
-	font-size: 31.2px;
-	line-height: 77px;
-	font-weight: 400;
-	text-transform: uppercase;
-	color: #6d6e70;
-	padding: 0 0 0 0px;
+	font-family: Nunito;	
+	font-size: 32px;		
+	font-weight: 400;	
+	text-transform: uppercase;	
+	color: #6d6e70;	
+	margin: 4px 0 0px 10px;
 }
 .element1{
 	width: 7px;
@@ -40,8 +38,7 @@ body{
 	border-radius: 3.5px;
 	float:left;
 	margin-left:9px;
-	margin-top:7px;
-	
+	margin-top:7px;	
 }
 
 .element2{
@@ -75,25 +72,63 @@ body{
 
 .menu {
 	
+float: left;
+margin: 6px 0 0 112px;
+
 }
 .menu ul{
 	list-style-type:none;
 	display:flex;
+	padding: 0px;
+}
+
+.menu li{
+	list-style-type:none;
+	display:flex;
+	padding-left: 29px;
+}
+
+.menu li:first-child {
+	padding-left: 0;
 }
 
 .menu a{
 	opacity: 0.67;
 	font-family: OpenSans;
 	font-size: 13.2px;
-	line-height: 77px;
 	font-weight: 600;
 	color: #666666;
 	text-decoration:none;
 	text-transform: uppercase;
-	margin-left:29px;
-	margin-top:-7px;
+
 }
 
 .menu a:hover{
 	color: #8fc63d;
+}
+
+.login{
+	float:left;
+	width: 100px;
+	opacity: 0.81;
+	background-color: #add136;
+	margin: 12px 0 0 29px;
+	border-radius: 20px;
+}
+
+.login a {
+	opacity: 0.81;
+	font-family: OpenSans;
+	font-size: 13.2px;
+	font-weight: 600;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	display: block;
+}
+
+.login a:hover{
+	background: #666666;
+	border-radius: 20px;
 }
