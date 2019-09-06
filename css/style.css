@@ -6,11 +6,13 @@ body{
 	font-size:14px;
 	color:#606060;
 	margin: 0px 0px;
+	background-color:#ffffff;
 }
 .container {
 	width:100%;
 	max-width:1020px;
 	margin:0 auto;
+	overflow: hidden;
 }
 
 .logo{
@@ -130,4 +132,61 @@ margin: 6px 0 0 112px;
 .login a:hover{
 	background: #666666;
 	border-radius: 20px;
+}
+
+
+.full_width{	
+	background: url(../images/banner.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin-top:21px;
+	 
+}
+
+
+h1.banner {
+	font-family: OpenSans;
+	font-size: 49.2px;
+	font-weight: 600;
+	color: #ffffff;
+	padding-top:168px;
+	text-align:center;
+	
+}
+
+span.banner  {
+	font-size: 35.2px;
+	font-weight: 400;
+	color: #ffffff;
+	display:block;
+	text-align:center;
+	
+}
+
+button.banner {
+	font-family: OpenSans;	
+	font-size: 19.2px;	
+	font-weight: 600;	
+	color: #ffffff;	
+	display:block;	
+	text-align:center;	
+	background-color:#99c50a;	
+	border:none;	
+	padding: 26px 54px;	
+	border-radius: 20px;	
+	margin: 60px auto 99px auto;
+}
+
+button.banner:hover{
+	background: #666666;
+	border-radius: 20px;
+}
+
+.banner_nav {
+	float:right;
+}
+
+a.banner_next {  	
+   margin:0 0px 49px 33px;
+   display:inline-block;
+   
 }
