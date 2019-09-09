@@ -2,12 +2,21 @@
     box-sizing: border-box;
 }
 
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Nunito', sans-serif;
+*/
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #606060;
     margin: 0px 0px;
     background-color: #ffffff;
+}
+
+section {
+    overflow: hidden;
 }
 
 .container {
@@ -287,4 +296,62 @@ p.presentation:last-child {
     font-size: 17.2px;
     font-weight: 400;
     color: #606060;
+}
+
+.colum_left {
+
+    width: 50%;
+    background: #e2f8ff;
+    float: left;
+}
+
+.colum_right {
+
+    width: 50%;
+    background: #f5f9eb;
+    float: left;
+}
+
+h3.find {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23.2px;
+    font-weight: 600;
+    color: #515151;
+    margin: 0;
+    padding: 46px 0 17px 0;
+}
+
+p.find {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17.2px;
+    font-weight: 400;
+    color: #515151;
+    line-height: 1.8;
+    padding-right: 73px;
+}
+
+.find_images {
+    float: left;
+    padding: 84px 45px 109px 141px;
+}
+
+.colum_right > .find_images {
+    float: left;
+    padding: 96px 72px 117px 76px;
+}
+
+button.find {
+    width: 187px;
+    background-color: #26a6d1;
+    border: none;
+    border-radius: 10px;
+    padding: 19px 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14.9px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.colum_right button {
+    background-color: #add136;
 }
