@@ -417,10 +417,72 @@ button.proposal {
 }
 
 .options_container {
-    background: #f9f9f9;
+    margin-top: 34px;
+    /*    background-image: url(../images/london_1.jpg);*/
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    /* background: #f9f9f9; */
+    background-size: cover;
     float: left;
     width: 29.5%;
     margin: 0 19px;
     border: 1px solid #e5e5e5;
     border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    padding-top: -3px;
+}
+
+.options_container img {
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+}
+
+.triangle {
+    background-image: url(../images/triangle.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    text-transform: uppercase;
+    padding: 0px 0;
+    margin: 0;
+    padding-bottom: 250px;
+    z-index: 1;
+    position: inherit;
+}
+
+.action_new {
+    position: absolute;
+    top: 0px;
+    left: 7px;
+    transform: rotate(-45deg);
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14.5px;
+    font-weight: 400;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.grb {
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 16.6px;
+    font-weight: 400S;
+    color: #ffffff;
+    background-color: #26a6d1;
+    border-radius: 5px;
+    position: absolute;
+    top: 149px;
+    left: 142px;
+    z-index: 3;
+}
+
+.options_container span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17.2px;
+    font-weight: 700;
+    color: #484848;
+    padding: 0 24px 17px 24px;
 }
