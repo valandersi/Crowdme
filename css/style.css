@@ -47,7 +47,7 @@ section {
     font-weight: 400;
     text-transform: uppercase;
     color: #6d6e70;
-    margin: 4px 0 0px 10px;
+    margin: 3px 0 0px 7px;
     text-decoration: none;
     display: block;
 }
@@ -58,7 +58,7 @@ section {
     background-color: #8fc63d;
     border-radius: 3.5px;
     float: left;
-    margin-left: 9px;
+    /* margin-left: 9px; */
     margin-top: 5px;
     padding-top: 8px;
 }
@@ -97,8 +97,8 @@ section {
 .menu {
 
     float: left;
-    margin: 6px 0 0 112px;
 
+    margin: 2px 0 0 114px;
 }
 
 .menu ul {
@@ -125,7 +125,6 @@ section {
     color: #666666;
     text-decoration: none;
     text-transform: uppercase;
-
 }
 
 .menu a:hover {
@@ -137,7 +136,7 @@ section {
     width: 100px;
     opacity: 0.81;
     background-color: #add136;
-    margin: 12px 0 0 29px;
+    margin: 4px 0 0 75px;
     border-radius: 20px;
 }
 
@@ -149,7 +148,7 @@ section {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 10px 30px;
+    padding: 9px 28px;
     display: block;
 }
 
@@ -162,19 +161,19 @@ section {
 .full_width {
     background: url(../images/banner.jpg) no-repeat;
     background-size: 100% 100%;
-    margin-top: 21px;
-
+    margin-top: 16px;
 }
 
 
 h1.banner {
     font-family: 'Open Sans', sans-serif;
-    font-size: 49.2px;
+    font-size: 50px;
     font-weight: 600;
     color: #ffffff;
-    padding-top: 168px;
+    padding-top: 144px;
     text-align: center;
-
+    line-height: 0.1;
+    letter-spacing: 1.1px;
 }
 
 span.banner {
@@ -195,9 +194,9 @@ button.banner {
     text-align: center;
     background-color: #99c50a;
     border: none;
-    padding: 26px 54px;
+    padding: 23px 46px;
     border-radius: 20px;
-    margin: 60px auto 99px auto;
+    margin: 30px auto 99px auto;
 }
 
 button.banner:hover {
@@ -210,14 +209,13 @@ button.banner:hover {
 }
 
 a.banner_next {
-    margin: 0 0px 49px 33px;
+    margin: 2px 0px 44px 30px;
     display: inline-block;
-
 }
 
 .circle_img {
     text-align: center;
-    margin: 98px auto 0 auto;
+    margin: 98px 449px 0 auto;
     display: block;
 }
 
@@ -230,17 +228,19 @@ a.banner_next {
     text-align: center;
     padding: 0 238px;
     line-height: 50px;
+    margin-top: 36px;
 }
 
 p.presentation {
     opacity: 0.7;
     font-family: 'Open Sans', sans-serif;
     font-size: 19.2px;
-    line-height: 1.6;
+    line-height: 1.8;
     font-weight: 400;
     color: #515151;
     text-transform: none;
-    padding: 13px 40px;
+    padding: 3px 40px;
+    /* margin-top: 16px; */
 }
 
 .privilege {
@@ -248,6 +248,7 @@ p.presentation {
     justify-content: space-around;
     padding: 0 34px 0 24px;
     /* width: 105%; */
+    margin-top: 146px;
 }
 
 .privilege a {
@@ -291,11 +292,13 @@ h3.presentation {
     text-align: left;
     padding: 0;
     margin: 0;
+    /* margin-top: -3px; */
+    margin-top: -17px;
 }
 
 .glasses {
     float: left;
-    padding: 46px 105px 119px 106px;
+    padding: 37px 102px 84px 109px;
 }
 
 .presentation_desc {
@@ -310,7 +313,7 @@ p.presentation_left {
     font-weight: 400;
     color: #606060;
     line-height: 1.8;
-    padding-right: 31px;
+    padding-right: 42px;
 }
 
 .colum_left {
