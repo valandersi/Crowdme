@@ -381,7 +381,6 @@ h2.proposal {
     font-size: 29.2px;
     font-weight: 600;
     color: #515151;
-    /* float: left; */
     margin: 80px 0 7px 0;
 }
 
@@ -398,7 +397,6 @@ p.proposal {
 }
 
 .proposal_left {
-    /* display: flex; */
     overflow: hidden;
 }
 
@@ -431,9 +429,11 @@ button.proposal {
     position: relative;
     z-index: 1;
     padding-top: -3px;
+    overflow: hidden;
 }
 
-.options_container img {
+
+img.main_img {
     position: absolute;
     top: 0px;
     z-index: 0;
@@ -485,4 +485,76 @@ button.proposal {
     font-weight: 700;
     color: #484848;
     padding: 0 24px 17px 24px;
+}
+
+.description_action {
+    opacity: 0.7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13.2px;
+    font-weight: 400;
+    color: #484848;
+    padding: 0 20px 23px 20px;
+}
+
+.progress_bar {
+    position: relative;
+    top: -30px;
+    padding: 0 10px;
+}
+
+img.bar {
+    position: absolute;
+    top: 0px;
+    padding: 10px;
+}
+
+img.progress {
+    position: absolute;
+    top: 0px;
+    padding: 10px;
+}
+
+.progress_text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13.2px;
+    font-weight: 600;
+    color: #8d8d8d;
+    overflow: hidden;
+    padding: 0 22px 0px 17px;
+}
+
+.progress_text p:first-child {
+    float: left;
+}
+
+.progress_text p:last-child {
+    float: right;
+}
+
+.options_container > hr {
+    color: #d6d6d6;
+    margin: 0 25px 0px 23px;
+    opacity: 0.7;
+}
+
+.details {
+    float: right;
+}
+
+a.see_details {
+    text-decoration: none;
+    padding: 25px 22px 25px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15.2px;
+    font-weight: 600;
+    color: #484848;
+    opacity: 0.85;
+    display: block;
+}
+
+a.see_details::after {
+    margin: 10px;
+    background: url(../images/triangle_2.png) no-repeat top left;
+    content: "";
+    padding: 0px 8px;
 }
