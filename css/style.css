@@ -302,7 +302,7 @@ h3.presentation {
     margin-bottom: 107px;
 }
 
-p.presentation:last-child {
+p.presentation_left {
     text-align: left;
     opacity: 0.67;
     font-family: 'Open Sans', sans-serif;
@@ -430,6 +430,7 @@ button.proposal {
     z-index: 1;
     padding-top: -3px;
     overflow: hidden;
+    background-color: #fafafa;
 }
 
 
@@ -557,4 +558,80 @@ a.see_details::after {
     background: url(../images/triangle_2.png) no-repeat top left;
     content: "";
     padding: 0px 8px;
+}
+
+.full_width_footer {
+    background: url(../images/bg.png) no-repeat;
+    background-size: 100% 100%;
+    /* background-position: top left; */
+}
+
+.slogan {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 39.2px;
+    font-weight: 600;
+    color: #9ec02d;
+    text-align: center;
+}
+
+.comments {
+    background: url(../images/dialog.png) no-repeat;
+    background-position: top left;
+    width: 397px;
+    margin: 103px 0 0 33px;
+}
+
+.comments h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21.2px;
+    font-weight: 600;
+    color: #9ec02d;
+    text-align: center;
+    padding: 21px 10px;
+    margin: 0;
+}
+
+p.description_action:last-child {
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.comments_author {
+    padding-left: 53px;
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.comments_author span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15.2px;
+    font-weight: 600;
+    color: #494949;
+    align-self: center;
+    padding-left: 18px;
+}
+
+.comment_one {
+    float: left;
+}
+
+.comment_two {
+    float: right;
+}
+
+.sponsors {
+    margin: 0 auto;
+    padding: 45px 0;
+}
+
+footer hr {
+    opacity: 0.11;
+}
+
+.copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13.2px;
+    font-weight: 400;
+    color: #848484;
+    text-align: center;
 }
