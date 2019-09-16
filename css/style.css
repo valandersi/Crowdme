@@ -192,12 +192,12 @@ button.banner {
 }
 
 a.banner_next {
-    margin: 2px 0 44px 30px;
+    margin: 0 0 44px 30px;
     display: inline-block
 }
 
 .circle_img {
-    margin: 98px 449px 0 auto
+    margin: 30px auto;
 }
 
 .presentation {
@@ -338,7 +338,7 @@ p.find {
 
 .find_images {
     float: left;
-    padding: 80px 47px 112px 0
+    padding: 80px 47px 112px 10px;
 }
 
 .colum_right img.find_images {
@@ -662,4 +662,180 @@ footer hr {
     color: #848484;
     text-align: center;
     padding: 3px
+}
+
+@media screen and (max-width:1050px) {
+    .logo {
+        margin-left: 20px
+    }
+
+    .menu {
+        margin: 2px 0 0 60px;
+    }
+
+    a.banner_next {
+        margin: 0 30px 44px 30px;
+    }
+
+    .privilege {
+        padding: 0 24px 0 24px;
+    }
+}
+
+@media screen and (max-width:1035px) {
+    .options {
+        display: flex;
+    }
+
+    .privilege {
+        margin-top: 53px;
+    }
+
+    .presentation_desc {
+        margin-bottom: 68px;
+    }
+
+    .circle_img {
+        margin: 30px auto 30px;
+    }
+
+    .sponsors {
+        display: none;
+    }
+
+    footer hr {
+        margin-top: 44px;
+    }
+}
+
+@media screen and (max-width:1005px) {
+    .menu {
+        margin: 2px 0 0 30px;
+    }
+
+    .presentation {
+        margin-top: 27px;
+        font-size: 28px;
+    }
+
+    .grb {
+        top: 156px;
+        left: 123px;
+    }
+}
+
+@media screen and (max-width:980px) {
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        float: none;
+
+    }
+
+    .login {
+        display: block;
+        margin: 10px auto;
+        float: none;
+    }
+
+
+}
+
+@media screen and (max-width:950px) {
+    h1.banner {
+        line-height: 1.1;
+        padding: 10px 20px;
+        margin-top: 90px;
+    }
+
+    .presentation {
+        padding: 0 200px;
+
+    }
+
+    button.proposal {
+        margin: -22px 0 30px 19px;
+    }
+
+    .grb {
+        top: 148px;
+        left: 95px;
+    }
+
+    img.bar,
+    img.progress {
+        height: 32px;
+    }
+
+    span.banner {
+        margin-top: -28px;
+    }
+}
+
+@media screen and (max-width:870px) {
+
+    .presentation {
+        padding: 0 100px;
+
+    }
+
+    p.presentation {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    h1.banner {
+        font-size: 33px;
+        margin-top: 60px;
+    }
+
+    .banner_nav {
+        display: flex;
+        justify-content: center;
+        float: none;
+    }
+
+    a.banner_next {
+        margin: 0 4px 44px 43px;
+    }
+
+    button.banner {
+        margin: 30px auto 55px;
+    }
+
+    .presentation {
+        font-size: 24px;
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width:590px) {
+    .menu li {
+        padding-left: 17px;
+    }
+
+    .menu li:first-child {
+        padding-left: 0;
+    }
+
+    p.presentation {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:520px) {
+    .menu li {
+        padding-left: 8px;
+    }
+
+    .presentation {
+        font-size: 22px;
+    }
 }
