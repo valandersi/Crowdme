@@ -570,7 +570,8 @@ a.see_details::after {
 .slogan,
 p.slogan_desc {
     font-family: 'Open Sans', sans-serif;
-    text-align: center
+    text-align: center;
+    padding: 0 10px;
 }
 
 .slogan {
@@ -578,7 +579,8 @@ p.slogan_desc {
     font-weight: 600;
     color: #9ec02d;
     letter-spacing: 1px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    padding 0 10px;
 }
 
 .comments h5,
@@ -707,6 +709,19 @@ footer hr {
     footer hr {
         margin-top: 44px;
     }
+
+    p.find {
+        padding-right: 15px;
+    }
+
+    .colum_right img.find_images {
+        padding: 92px 35px 121px 35px;
+    }
+
+    .container_right > p.find {
+        padding-right: 15px;
+    }
+
 }
 
 @media screen and (max-width:1005px) {
@@ -723,12 +738,20 @@ footer hr {
         top: 156px;
         left: 123px;
     }
+
+    img.bar,
+    img.progress {
+        padding: 8px;
+    }
+
+
 }
 
 @media screen and (max-width:980px) {
     .logo {
         display: flex;
         justify-content: center;
+        align-items: self-end;
     }
 
     .menu {
@@ -744,6 +767,10 @@ footer hr {
         float: none;
     }
 
+    img.bar,
+    img.progress {
+        padding: 6px;
+    }
 
 }
 
@@ -760,7 +787,12 @@ footer hr {
     }
 
     button.proposal {
-        margin: -22px 0 30px 19px;
+        margin: -22px 0 35px 19px;
+    }
+
+    p.proposal {
+        width: 100%;
+        padding: 5px 22px 0 22px;
     }
 
     .grb {
@@ -779,6 +811,75 @@ footer hr {
 
     .glasses {
         padding: 30px 40px 84px 67px;
+    }
+
+    .colum_left {
+        width: 100%;
+    }
+
+    .colum_right {
+        width: 100%;
+    }
+
+    .container_left {
+        max-width: 100%;
+    }
+
+    .container_right {
+        max-width: 100%;
+    }
+
+    .find_images {
+        padding: 80px 50px 80px 50px;
+    }
+
+    .colum_right img.find_images {
+        padding: 80px 80px 90px 50px;
+    }
+
+    .options {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .options_container {
+        width: 300px;
+        margin: 30px 50px;
+    }
+
+    img.bar,
+    img.progress {
+        height: auto;
+    }
+
+    .progress_bar {
+        padding-left: 17px;
+    }
+
+    .slogan {
+        margin-top: -5px;
+    }
+
+    .comment_two {
+        float: none;
+        width: 397px;
+        margin: 10px auto;
+    }
+
+    .comment_one {
+        float: none;
+        width: 397px;
+        margin: 10px auto;
+    }
+
+    .comments {
+        margin: 10px auto;
+    }
+
+    .comments_author {
+        padding-bottom: 23px;
     }
 }
 
@@ -802,6 +903,17 @@ footer hr {
         padding: 3px 14px;
 
     }
+
+    .options_container {
+        width: 300px;
+        margin: 30px 30px;
+    }
+
+    .slogan {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
 }
 
 @media screen and (max-width:760px) {
@@ -858,6 +970,20 @@ footer hr {
     .glasses {
         padding: 0px 40px 50px 67px;
     }
+
+    .options_container {
+        width: 300px;
+        margin: 30px 50px;
+    }
+
+    .slogan {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    p.slogan_desc {
+        font-size: 17px;
+    }
 }
 
 @media screen and (max-width:620px) {
@@ -888,6 +1014,28 @@ footer hr {
     p.presentation_left {
         font-size: 15px;
     }
+
+    .find_images {
+        padding: 80px 50px 98px 50px;
+    }
+
+    .colum_right img.find_images {
+        padding: 80px 80px 118px 50px;
+    }
+
+    button.proposal {
+        margin: -22px 0 45px 19px;
+    }
+
+    .slogan {
+        font-size: 23px;
+        margin-top: 10px;
+
+    }
+
+    p.slogan_desc {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width:590px) {
@@ -912,5 +1060,21 @@ footer hr {
 
     .presentation {
         font-size: 22px;
+    }
+
+    p.find {
+        padding-right: 30px;
+    }
+
+    .container_right > p.find {
+        padding-right: 30px;
+    }
+
+    .find_images {
+        padding: 80px 50px 118px 50px;
+    }
+
+    .colum_right img.find_images {
+        padding: 80px 80px 138px 50px;
     }
 }
