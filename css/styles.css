@@ -611,7 +611,7 @@ p.slogan_desc {
 }
 
 .comments h5 {
-    font-size: 21.2px;
+    font-size: 1.3em;
     font-weight: 600;
     color: #9ec02d;
     padding: 19px 12px 10px;
@@ -622,7 +622,9 @@ p.description_action:last-child {
     margin: 0;
     padding-bottom: 57px;
     padding-left: 36px;
-    padding-top: 0
+    padding-top: 0;
+    font-size: 0.9em;
+    
 }
 
 .comments_author {
@@ -767,7 +769,8 @@ footer hr {
     }
 
     .menu {
-        float: none
+        float: none;
+        margin: 0 auto;
     }
 
     .login {
@@ -967,7 +970,7 @@ footer hr {
     }
 
     .glasses {
-        padding: 0 40px 50px 67px
+        padding: 0 40px 50px 40px
     }
 
     .options_container {
@@ -1022,7 +1025,7 @@ footer hr {
     }
 
     .colum_right img.find_images {
-        padding: 80px 80px 118px 50px
+        padding: 80px 80px 126px 50px
     }
 
     button.proposal {
@@ -1064,10 +1067,10 @@ footer hr {
     }
 
     .find_images {
-        padding: 80px 50px 118px
+        padding: 80px 50px 138px
     }
 
     .colum_right img.find_images {
-        padding: 80px 80px 138px 50px
+        padding: 80px 80px 158px 50px
     }
 }
