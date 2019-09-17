@@ -8,7 +8,8 @@ body {
     font-size: 14px;
     color: #606060;
     margin: 0;
-    background-color: #fff
+    background-color: #fff;
+    min-width: 480px;
 }
 
 button:hover {
@@ -775,6 +776,10 @@ footer hr {
     span.banner {
         margin-top: -28px;
     }
+
+    .glasses {
+        padding: 30px 40px 84px 67px;
+    }
 }
 
 @media screen and (max-width:870px) {
@@ -786,6 +791,16 @@ footer hr {
 
     p.presentation {
         font-size: 17px;
+    }
+
+    .privilege a {
+        font-size: 24px;
+    }
+
+    .privilege span {
+        display: inline-block;
+        padding: 3px 14px;
+
     }
 }
 
@@ -812,6 +827,66 @@ footer hr {
     .presentation {
         font-size: 24px;
         padding: 0 50px;
+    }
+
+    .privilege a {
+        font-size: 21px;
+    }
+
+    .privilege span {
+        padding: 7px 15px;
+
+    }
+
+
+    .presentation_desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    h3.presentation {
+        text-align: center;
+    }
+
+    p.presentation_left {
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    .glasses {
+        padding: 0px 40px 50px 67px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .privilege {
+        flex-direction: column;
+    }
+
+    .privilege a {
+        width: 100%;
+        font-size: 20px;
+        padding-bottom: 21px;
+        margin-bottom: 36px;
+    }
+
+    .privilege span {
+        padding: 7px 16px;
+
+    }
+
+    .privilege a:last-child {
+        width: 100%;
+    }
+
+    h3.presentation {
+        font-size: 21px;
+    }
+
+    p.presentation_left {
+        font-size: 15px;
     }
 }
 
