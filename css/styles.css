@@ -1062,8 +1062,15 @@ footer hr {
 }
 
 @media screen and (max-width:520px) {
+
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .menu li {
-        padding-left: 8px
+        padding-left: 3px;
     }
 
     .presentation {
