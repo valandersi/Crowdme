@@ -9,7 +9,10 @@ body {
     color: #606060;
     margin: 0;
     background-color: #fff;
-    min-width: 480px
+    min-width: 480px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 button:hover {
@@ -627,8 +630,6 @@ p.description_action:last-child {
     padding-bottom: 57px;
     padding-left: 36px;
     padding-top: 0;
-    font-size: 0.8em;
-
 }
 
 .comments_author {
@@ -1052,7 +1053,7 @@ footer hr {
     }
 
     .menu li:first-child {
-        padding-left: 0
+        padding-left: 8px
     }
 
     p.presentation {
