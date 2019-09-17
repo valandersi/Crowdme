@@ -9,7 +9,7 @@ body {
     color: #606060;
     margin: 0;
     background-color: #fff;
-    min-width: 480px;
+    min-width: 480px
 }
 
 button:hover {
@@ -198,7 +198,7 @@ a.banner_next {
 }
 
 .circle_img {
-    margin: 30px auto;
+    margin: 30px auto
 }
 
 .presentation {
@@ -339,7 +339,7 @@ p.find {
 
 .find_images {
     float: left;
-    padding: 80px 47px 112px 10px;
+    padding: 80px 47px 112px 10px
 }
 
 .colum_right img.find_images {
@@ -367,7 +367,10 @@ button.find {
     margin: 0 0 0 auto
 }
 
-.container_2,
+.container_2 {
+    max-width: 510px
+}
+
 .container_right {
     max-width: 510px;
     margin: 0 auto 0 0
@@ -486,19 +489,22 @@ img.main_img {
 .description_action,
 .options_container span {
     font-family: 'Open Sans', sans-serif;
-    font-size: 17.2px;
-    font-weight: 700;
-    color: #484848;
-    padding: 0 25px 8px 24px
+    color: #484848
 }
 
 .description_action {
     opacity: .7;
+    line-height: 1.7;
+    margin-top: 9px;
     font-size: 13.2px;
     font-weight: 400;
-    padding: 0 19px 35px 25px;
-    line-height: 1.7;
-    margin-top: 9px
+    padding: 0 19px 35px 25px
+}
+
+.options_container span {
+    font-size: 17.2px;
+    font-weight: 700;
+    padding: 0 25px 8px 24px
 }
 
 .progress_bar {
@@ -570,8 +576,7 @@ a.see_details::after {
 .slogan,
 p.slogan_desc {
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    padding: 0 10px;
+    text-align: center
 }
 
 .slogan {
@@ -580,7 +585,7 @@ p.slogan_desc {
     color: #9ec02d;
     letter-spacing: 1px;
     margin-bottom: 30px;
-    padding 0 10px;
+    padding: 0 10px
 }
 
 .comments h5,
@@ -673,408 +678,396 @@ footer hr {
     }
 
     .menu {
-        margin: 2px 0 0 60px;
+        margin: 2px 0 0 60px
     }
 
     a.banner_next {
-        margin: 0 30px 44px 30px;
+        margin: 0 30px 44px
     }
 
     .privilege {
-        padding: 0 24px 0 24px;
+        padding: 0 24px
     }
 }
 
 @media screen and (max-width:1035px) {
     .options {
-        display: flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
     }
 
     .privilege {
-        margin-top: 53px;
+        margin-top: 53px
     }
 
     .presentation_desc {
-        margin-bottom: 68px;
+        margin-bottom: 68px
     }
 
     .circle_img {
-        margin: 30px auto 30px;
+        margin: 30px auto
     }
 
     .sponsors {
-        display: none;
+        display: none
     }
 
     footer hr {
-        margin-top: 44px;
+        margin-top: 44px
     }
 
+    .container_right > p.find,
     p.find {
-        padding-right: 15px;
+        padding-right: 15px
     }
 
     .colum_right img.find_images {
-        padding: 92px 35px 121px 35px;
+        padding: 92px 35px 121px
     }
-
-    .container_right > p.find {
-        padding-right: 15px;
-    }
-
 }
 
 @media screen and (max-width:1005px) {
     .menu {
-        margin: 2px 0 0 30px;
+        margin: 2px 0 0 30px
     }
 
     .presentation {
         margin-top: 27px;
-        font-size: 28px;
+        font-size: 28px
     }
 
     .grb {
         top: 156px;
-        left: 123px;
+        left: 123px
     }
 
     img.bar,
     img.progress {
-        padding: 8px;
+        padding: 8px
     }
-
-
 }
 
 @media screen and (max-width:980px) {
-    .logo {
+
+    .logo,
+    .menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: self-end;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .logo {
+        -webkit-box-align: self-end;
+        -ms-flex-align: self-end;
+        align-items: self-end
     }
 
     .menu {
-        display: flex;
-        justify-content: center;
-        float: none;
-
+        float: none
     }
 
     .login {
         display: block;
         margin: 10px auto;
-        float: none;
+        float: none
     }
 
     img.bar,
     img.progress {
-        padding: 6px;
+        padding: 6px
     }
-
 }
 
 @media screen and (max-width:950px) {
     h1.banner {
         line-height: 1.1;
         padding: 10px 20px;
-        margin-top: 90px;
+        margin-top: 90px
     }
 
     .presentation {
-        padding: 0 200px;
-
+        padding: 0 200px
     }
 
     button.proposal {
-        margin: -22px 0 35px 19px;
+        margin: -22px 0 35px 19px
     }
 
     p.proposal {
         width: 100%;
-        padding: 5px 22px 0 22px;
+        padding: 5px 22px 0
     }
 
     .grb {
         top: 148px;
-        left: 95px;
+        left: 95px
     }
 
     img.bar,
     img.progress {
-        height: 32px;
+        height: auto
     }
 
     span.banner {
-        margin-top: -28px;
+        margin-top: -28px
     }
 
     .glasses {
-        padding: 30px 40px 84px 67px;
+        padding: 30px 40px 84px 67px
     }
 
-    .colum_left {
-        width: 100%;
-    }
-
+    .colum_left,
     .colum_right {
-        width: 100%;
+        width: 100%
     }
 
-    .container_left {
-        max-width: 100%;
-    }
-
+    .container_left,
     .container_right {
-        max-width: 100%;
+        max-width: 100%
     }
 
     .find_images {
-        padding: 80px 50px 80px 50px;
+        padding: 80px 50px
     }
 
     .colum_right img.find_images {
-        padding: 80px 80px 90px 50px;
+        padding: 80px 80px 90px 50px
     }
 
     .options {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        justify-content: space-around;
-
+        -ms-flex-pack: distribute;
+        justify-content: space-around
     }
 
     .options_container {
         width: 300px;
-        margin: 30px 50px;
-    }
-
-    img.bar,
-    img.progress {
-        height: auto;
+        margin: 30px 50px
     }
 
     .progress_bar {
-        padding-left: 17px;
+        padding-left: 17px
     }
 
     .slogan {
-        margin-top: -5px;
+        margin-top: -5px
     }
 
+    .comment_one,
     .comment_two {
         float: none;
         width: 397px;
-        margin: 10px auto;
-    }
-
-    .comment_one {
-        float: none;
-        width: 397px;
-        margin: 10px auto;
+        margin: 10px auto
     }
 
     .comments {
-        margin: 10px auto;
+        margin: 10px auto
     }
 
     .comments_author {
-        padding-bottom: 23px;
+        padding-bottom: 23px
     }
 }
 
 @media screen and (max-width:870px) {
-
     .presentation {
-        padding: 0 100px;
-
+        padding: 0 100px
     }
 
     p.presentation {
-        font-size: 17px;
+        font-size: 17px
     }
 
     .privilege a {
-        font-size: 24px;
+        font-size: 24px
     }
 
     .privilege span {
         display: inline-block;
-        padding: 3px 14px;
-
+        padding: 3px 14px
     }
 
     .options_container {
         width: 300px;
-        margin: 30px 30px;
+        margin: 30px
     }
 
     .slogan {
         font-size: 30px;
-        margin-top: 10px;
+        margin-top: 10px
     }
-
 }
 
 @media screen and (max-width:760px) {
     h1.banner {
         font-size: 33px;
-        margin-top: 60px;
+        margin-top: 60px
     }
 
     .banner_nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
-        float: none;
+        float: none
     }
 
     a.banner_next {
-        margin: 0 4px 44px 43px;
+        margin: 0 4px 44px 43px
     }
 
     button.banner {
-        margin: 30px auto 55px;
+        margin: 30px auto 55px
     }
 
     .presentation {
         font-size: 24px;
-        padding: 0 50px;
+        padding: 0 50px
     }
 
     .privilege a {
-        font-size: 21px;
+        font-size: 21px
     }
 
     .privilege span {
-        padding: 7px 15px;
-
+        padding: 7px 15px
     }
 
-
     .presentation_desc {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 20px
     }
 
     h3.presentation {
-        text-align: center;
+        text-align: center
     }
 
     p.presentation_left {
         padding: 10px 20px;
-        text-align: center;
+        text-align: center
     }
 
     .glasses {
-        padding: 0px 40px 50px 67px;
+        padding: 0 40px 50px 67px
     }
 
     .options_container {
         width: 300px;
-        margin: 30px 50px;
+        margin: 30px 50px
     }
 
     .slogan {
         font-size: 25px;
-        margin-top: 10px;
+        margin-top: 10px
     }
 
     p.slogan_desc {
-        font-size: 17px;
+        font-size: 17px
     }
 }
 
 @media screen and (max-width:620px) {
     .privilege {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
     }
 
     .privilege a {
         width: 100%;
         font-size: 20px;
         padding-bottom: 21px;
-        margin-bottom: 36px;
+        margin-bottom: 36px
     }
 
     .privilege span {
-        padding: 7px 16px;
-
+        padding: 7px 16px
     }
 
     .privilege a:last-child {
-        width: 100%;
+        width: 100%
     }
 
     h3.presentation {
-        font-size: 21px;
+        font-size: 21px
     }
 
-    p.presentation_left {
-        font-size: 15px;
+    p.presentation_left,
+    p.slogan_desc {
+        font-size: 15px
     }
 
     .find_images {
-        padding: 80px 50px 98px 50px;
+        padding: 80px 50px 98px
     }
 
     .colum_right img.find_images {
-        padding: 80px 80px 118px 50px;
+        padding: 80px 80px 118px 50px
     }
 
     button.proposal {
-        margin: -22px 0 45px 19px;
+        margin: -22px 0 45px 19px
     }
 
     .slogan {
         font-size: 23px;
-        margin-top: 10px;
-
-    }
-
-    p.slogan_desc {
-        font-size: 15px;
+        margin-top: 10px
     }
 }
 
 @media screen and (max-width:590px) {
     .menu li {
-        padding-left: 17px;
+        padding-left: 17px
     }
 
     .menu li:first-child {
-        padding-left: 0;
+        padding-left: 0
     }
 
     p.presentation {
-        font-size: 15px;
+        font-size: 15px
     }
-
 }
 
 @media screen and (max-width:520px) {
     .menu li {
-        padding-left: 8px;
+        padding-left: 8px
     }
 
     .presentation {
-        font-size: 22px;
+        font-size: 22px
     }
 
+    .container_right > p.find,
     p.find {
-        padding-right: 30px;
-    }
-
-    .container_right > p.find {
-        padding-right: 30px;
+        padding-right: 30px
     }
 
     .find_images {
-        padding: 80px 50px 118px 50px;
+        padding: 80px 50px 118px
     }
 
     .colum_right img.find_images {
-        padding: 80px 80px 138px 50px;
+        padding: 80px 80px 138px 50px
     }
 }
