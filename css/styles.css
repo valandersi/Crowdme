@@ -12,7 +12,7 @@ body {
     min-width: 480px;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
 }
 
 button:hover {
@@ -112,8 +112,7 @@ section {
 .menu a {
     font-size: 13.2px;
     text-decoration: none;
-    text-transform: uppercase;
-
+    text-transform: uppercase
 }
 
 .menu a {
@@ -362,7 +361,7 @@ button.find {
     font-weight: 600;
     color: #fff;
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 50px
 }
 
 .colum_right button {
@@ -629,7 +628,7 @@ p.description_action:last-child {
     margin: 0;
     padding-bottom: 57px;
     padding-left: 36px;
-    padding-top: 0;
+    padding-top: 0
 }
 
 .comments_author {
@@ -773,15 +772,15 @@ footer hr {
         align-items: self-end
     }
 
+    .login,
     .menu {
         float: none;
-        margin: 0 auto;
+        margin: 0 auto
     }
 
     .login {
         display: block;
-        margin: 10px auto;
-        float: none
+        margin: 10px auto
     }
 
     img.bar,
@@ -790,7 +789,7 @@ footer hr {
     }
 
     .menu a {
-        padding: 0 3px;
+        padding: 0 3px
     }
 }
 
@@ -979,7 +978,7 @@ footer hr {
     }
 
     .glasses {
-        padding: 0 40px 50px 40px
+        padding: 0 40px 50px
     }
 
     .options_container {
@@ -1062,15 +1061,19 @@ footer hr {
 }
 
 @media screen and (max-width:520px) {
-
     .menu ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        justify-content: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
     }
 
     .menu li {
-        padding-left: 14px;
+        padding-left: 14px
     }
 
     .presentation {
@@ -1089,6 +1092,4 @@ footer hr {
     .colum_right img.find_images {
         padding: 80px 80px 178px 50px
     }
-
-
 }
