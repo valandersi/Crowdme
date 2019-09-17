@@ -109,7 +109,8 @@ section {
 .menu a {
     font-size: 13.2px;
     text-decoration: none;
-    text-transform: uppercase
+    text-transform: uppercase;
+    padding: 0 3px;
 }
 
 .menu a {
@@ -626,7 +627,7 @@ p.description_action:last-child {
     padding-bottom: 57px;
     padding-left: 36px;
     padding-top: 0;
-    font-size: 0.9em;
+    font-size: 0.8em;
 
 }
 
@@ -1070,10 +1071,10 @@ footer hr {
     }
 
     .find_images {
-        padding: 80px 50px 138px
+        padding: 80px 50px 158px
     }
 
     .colum_right img.find_images {
-        padding: 80px 80px 158px 50px
+        padding: 80px 80px 178px 50px
     }
 }
