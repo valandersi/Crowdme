@@ -338,11 +338,13 @@ p.find {
 }
 
 .find_images {
+    display: block;
     float: left;
     padding: 80px 47px 112px 10px
 }
 
 .colum_right img.find_images {
+    display: block;
     float: left;
     padding: 92px 72px 121px 73px
 }
@@ -354,8 +356,9 @@ button.find {
     padding: 16px 25px;
     font-size: 14.9px;
     font-weight: 600;
-    margin-top: 3px;
-    color: #fff
+    color: #fff;
+    display: block;
+    margin-bottom: 50px;
 }
 
 .colum_right button {
@@ -624,7 +627,7 @@ p.description_action:last-child {
     padding-left: 36px;
     padding-top: 0;
     font-size: 0.9em;
-    
+
 }
 
 .comments_author {
