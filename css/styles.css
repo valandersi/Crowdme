@@ -110,7 +110,7 @@ section {
     font-size: 13.2px;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 0 3px;
+
 }
 
 .menu a {
@@ -787,6 +787,10 @@ footer hr {
     img.progress {
         padding: 6px
     }
+
+    .menu a {
+        padding: 0 3px;
+    }
 }
 
 @media screen and (max-width:950px) {
@@ -1077,4 +1081,6 @@ footer hr {
     .colum_right img.find_images {
         padding: 80px 80px 178px 50px
     }
+
+
 }
